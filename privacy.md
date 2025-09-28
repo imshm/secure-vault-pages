@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      background: #fdfdfd;
+      color: #333;
+      max-width: 800px;
+    }
+    h1 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    h2 {
+      margin-top: 20px;
+      color: #444;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    a { color: #007acc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+
+  <h2>1. Information We Collect</h2>
+  <p>We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support.</p>
+
+  <h2>2. How We Use Your Information</h2>
+  <p>We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you.</p>
+
+  <h2>3. Information Sharing</h2>
+  <p>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.</p>
+
+  <h2>4. Data Security</h2>
+  <p>We implement industry-standard security measures including AES-256 encryption to protect your data both in transit and at rest.</p>
+
+  <h2>5. Data Retention</h2>
+  <p>We retain your information for as long as your account is active or as needed to provide you services, comply with legal obligations, and resolve disputes.</p>
+
+  <h2>6. Your Rights</h2>
+  <p>You have the right to access, update, or delete your personal information. You may also request a copy of your data or ask us to stop processing it.</p>
+
+  <h2>7. Cookies and Tracking</h2>
+  <p>We use cookies and similar technologies to improve your experience, analyze usage patterns, and provide personalized content.</p>
+
+  <h2>8. Third-Party Services</h2>
+  <p>Our app may contain links to third-party services. We are not responsible for the privacy practices of these external services.</p>
+
+  <h2>9. Children's Privacy</h2>
+  <p>Our service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
+
+  <p class="footer">Last updated: <span id="lastUpdated"></span></p>
+
+  <script>
+    document.getElementById("lastUpdated").textContent = new Date('2025/09/28').toLocaleDateString();
+  </script>
+</body>
+</html>
